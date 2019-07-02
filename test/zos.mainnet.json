@@ -1,0 +1,93 @@
+{
+  "contracts": {
+    "Note": {
+      "address": "0x9E05B78ea853a4B093694645561c4BFc953A6f62",
+      "constructorCode": "608060405234801561001057600080fd5b5061026f806100206000396000f300",
+      "bodyBytecodeHash": "3b8b561d16578f00032d842ad07526ee4e83236f63134563af531a11c022023e",
+      "localBytecodeHash": "28f6ba6d4fe73b251a7a937047e1cfa43773bc0511c773074febdda7f6b39af1",
+      "deployedBytecodeHash": "28f6ba6d4fe73b251a7a937047e1cfa43773bc0511c773074febdda7f6b39af1",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 98,
+          "type": "t_bool",
+          "src": "757:24:2"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 100,
+          "type": "t_bool",
+          "src": "876:25:2"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 149,
+          "type": "t_array:50<t_uint256>",
+          "src": "1891:29:2"
+        },
+        {
+          "contract": "Note",
+          "path": "contracts/Note.sol",
+          "label": "number",
+          "astId": 63,
+          "type": "t_uint256",
+          "src": "126:22:1"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "test/Note": [
+      {
+        "address": "0x2cE224CaD729c63C5cDF9CE8F2E8B5B8f81eC7B4",
+        "version": "0.1.0",
+        "implementation": "0x9E05B78ea853a4B093694645561c4BFc953A6f62"
+      },
+      {
+        "address": "0xAb119259Ff325f845F8CE59De8ccF63E597A74Cd",
+        "version": "0.1.0",
+        "implementation": "0x9E05B78ea853a4B093694645561c4BFc953A6f62"
+      }
+    ]
+  },
+  "zosversion": "2.2",
+  "version": "0.1.0",
+  "proxyAdmin": {
+    "address": "0x70f94D58cC3fdcBeAC7140f35A087dA9fcD09b94"
+  }
+}
